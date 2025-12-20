@@ -1,45 +1,48 @@
 # ⚡ Germany Electricity Load Forecasting Dashboard
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-EB5E28)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![TimeSeries](https://img.shields.io/badge/Time%20Series-Forecasting-blue)
 
-# ⚡ Germany Electricity Load Forecasting Dashboard
+A **real-time interactive dashboard** for forecasting **Germany’s electricity load** using **machine learning and time-series analysis**.
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B.svg)](https://streamlit.io/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-1.7.0-green.svg)](https://xgboost.ai/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+---
 
-A real-time interactive dashboard for forecasting Germany's electricity load using machine learning. This project combines time series analysis, weather data, and XGBoost to provide accurate load forecasts.
+## 🚀 Features
 
-## 🎯 Features
+- 🔮 **72-hour electricity load forecasting**
+- 📊 Interactive Streamlit dashboard with Plotly
+- 🌦️ Integration of load, weather & temporal features
+- 🤖 Advanced ML model: **XGBoost**
+- 📉 Error analysis & feature importance visualization
+- 🚢 Deployment-ready architecture (Docker compatible)
 
-- **Real-time Forecasting**: 72-hour electricity load predictions
-- **Interactive Dashboard**: Professional Streamlit interface with Plotly visualizations
-- **Multiple Data Sources**: Integration of electricity load, weather, and temporal data
-- **Advanced ML Models**: XGBoost with feature engineering and hyperparameter tuning
-- **Comprehensive Analysis**: Error analysis, feature importance, and scenario simulation
-- **Deployment Ready**: Full CI/CD pipeline with Docker support
+---
+
+## 🧠 Methodology
+
+- Feature engineering (time, calendar, weather)
+- XGBoost regression model
+- Hyperparameter tuning
+- Model evaluation using RMSE and MAE
+
+---
 
 ## 📊 Dashboard Preview
+*(Add screenshot here)*
 
-![Dashboard Screenshot](images/dashboard_screenshot.png)
+---
 
-## 🏗️ Architecture
+## 🧩 Tech Stack
 
-```mermaid
-graph TD
-    A[Data Sources] --> B[Data Pipeline]
-    B --> C[Feature Engineering]
-    C --> D[ML Model Training]
-    D --> E[Model Deployment]
-    E --> F[Streamlit Dashboard]
-    F --> G[User Interaction]
-    
-    H[Real-time Data] --> B
-    I[Weather API] --> B
-    J[Temporal Features] --> C
-    
-    E --> K[Model Registry]
-    K --> L[Monitoring]
-    L --> M[Retraining]
-    
+- Python
+- XGBoost
+- Streamlit
+- Plotly
+- Pandas, NumPy
+
+---
+
+## 👩‍💻 Author
+**Manar ORF**
